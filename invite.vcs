@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Eastern Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T020000
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=1SU;BYMONTH=11
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=2SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Hunter Schmitt:mailto:hunterschmitt518@gmail.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=kbasso4788
+ @gmail.com:mailto:kbasso4788@gmail.com
+DESCRIPTION;LANGUAGE=en-US:\n\nGet Outlook for Android<https://aka.ms/AAb9y
+ sg>\n________________________________\nFrom: hunterschmitt518@gmail.com\nT
+ o: Disguised Toast Support <disguisedtoast-support@3blackdot.com>\nSubject
+ : Re: My secret messages\nWhen: Tuesday\, May 18\, 2021 10:00 AM-11:00 AM.
+ \nWhere:\n\n\n\n\n\nOn Sun\, May 16\, 2021\, 4:05 AM Hunter Schmitt <hunte
+ rschmitt215@gmail.com> wrote:\n\n\n\nOn Sun\, May 16\, 2021\, 3:11 AM Hunt
+ er Schmitt <hunterschmitt215@gmail.com> wrote:\n\n\n\nOn Sat\, May 15\, 20
+ 21\, 11:46 PM Disguised Toast Support <disguisedtoast-support@3blackdot.co
+ m> wrote:\n\nHello Hunter\,\n\nWe received your email request! Someone fro
+ m our team will get back to you as soon as possible.\n\nThank you!\n\n{#HS
+ :1514798676-127977#}​\n\n\nGet Outlook for Android\n\n\nFrom: Hunter Sch
+ mitt <hunterschmitt215@gmail.com>\nSent: Monday\, May 17\, 2021\, 6:37 PM\
+ nTo: Disguised Toast Support\nSubject: Re: My secret messages\n\n\n\n\nOn 
+ Sun\, May 16\, 2021\, 4:05 AM Hunter Schmitt <hunterschmitt215@gmail.com> 
+ wrote:\n\n​\n\n\nOn Sun\, May 16\, 2021\, 3:11 AM Hunter Schmitt <hunter
+ schmitt215@gmail.com> wrote:\n\n\n\nOn Sat\, May 15\, 2021\, 11:46 PM Disg
+ uised Toast Support <disguisedtoast-support@3blackdot.com> wrote:\n\nHello
+  Hunter\,\n\nWe received your email request! Someone from our team will ge
+ t back to you as soon as possible.\n\nThank you!\n\n{#HS:1514798676-127977
+ #}\n\n\n
+UID:6lij4o9o6cq34b9i68ojeb9kckqjabb2ckr3cb9j6li6aoppckp3gc9j74@google.com
+SUMMARY;LANGUAGE=en-US:Fwd: Re: My secret messages
+DTSTART;TZID=Eastern Standard Time:20210518T100000
+DTEND;TZID=Eastern Standard Time:20210518T110000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20210524T163931Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+X-MICROSOFT-CDO-OWNERAPPTID:0
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
